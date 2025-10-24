@@ -26,10 +26,6 @@ Exposing port 30000 for web UI and 50000 for agent pods.
 # 4. ServiceAccount & RBAC
 Created `ServiceAccount: jenkins` and `ClusterRoleBinding: jenkins` for permissions.
 
-### Screenshot 3: ServiceAccount & ClusterRoleBinding
-`kubectl get sa jenkins`
-`kubectl get clusterrolebinding jenkins`
-
 ---
 
 # 5. Configuring Jenkins Kubernetes Cloud
@@ -43,8 +39,6 @@ Steps:
    - Credentials: Kubernetes Service Account
    - Skip TLS Verify: ✅
 
-### Screenshot 4: Test Connection Success
-
 ---
 
 # 6. Adding Pod Template for Agents
@@ -54,17 +48,12 @@ Steps:
 - Command / Args: empty
 - Working Directory: `/home/jenkins/agent`
 
-### Screenshot 5: Pod Template Configuration
-
 ---
 
 # 7. Pipeline Job Execution
 - Example pipeline: `node { echo "Hello from agent pod" }`
 - Trigger Build Now.
 
-### Screenshot 6: Jenkins Console Output
-
-### Screenshot 7: Agent Pod Creation
 `kubectl get pods -w`
 
 ### Screenshot 8: Agent Pod Logs

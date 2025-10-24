@@ -56,7 +56,6 @@ Steps:
 
 `kubectl get pods -w`
 
-### Screenshot 8: Agent Pod Logs
 `kubectl logs <agent-pod-name>`
 ```
 INFO: Connected
@@ -72,8 +71,4 @@ INFO: Jenkins agent is running
 - NodePort service allowed web UI access
 
 ---
-
-# 9. Optional Extras
-- Node IP and browser access URL
-- Error messages solved (e.g., missing JNLP port, RBAC issues)
 

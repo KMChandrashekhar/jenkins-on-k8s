@@ -21,12 +21,6 @@ Highlight key parts: image, ports, ServiceAccount.
 ## NodePort Service YAML
 Exposing port 30000 for web UI and 50000 for agent pods.
 
-### Screenshot 1: Jenkins Master Pod Running
-`kubectl get pods -o wide`
-
-### Screenshot 2: Jenkins Service NodePort
-`kubectl get svc jenkins`
-
 ---
 
 # 4. ServiceAccount & RBAC

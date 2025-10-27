@@ -1,4 +1,4 @@
-**Jenkins on Kubernetes Assignment Dynamic agent POD to run Jenkin Job**
+**Jenkins on Kubernetes Assignment Dynamic agent POD to run Jenkin Job and release agent once job execution**
 
 ---
 
